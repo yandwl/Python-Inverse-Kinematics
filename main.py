@@ -1,5 +1,5 @@
 import pygame
-from segment import Segment, SegmentChain
+from segment import SegmentChain
 
 SEGMENTS_AMOUNT = 3
 SEGMENTS_LENGTH = 150
@@ -13,8 +13,8 @@ running = True
 origin = (screen.get_size()[0] / 2, screen.get_size()[1] / 2)
 
 chain = SegmentChain(
-    3,
-    100,
+    SEGMENTS_AMOUNT,
+    SEGMENTS_LENGTH,
 )
 
 chain.attach(origin) # Remove to make a free chain
