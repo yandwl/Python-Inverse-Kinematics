@@ -1,5 +1,5 @@
 import pygame
-from segment import Segment, SegmentChain
+from segment import SegmentChain
 
 SEGMENTS_AMOUNT = 3
 SEGMENTS_LENGTH = 150
